@@ -8,7 +8,7 @@
     "module": "esnext",
     "target": "esnext",
     "lib": ["ESNext", "DOM"],
-    "types": ["bun-types", "vite/client"],
+    "types": ["node", "vite/client"],
     "skipLibCheck": true,
     "baseUrl": ".",
     "paths": {
@@ -21,9 +21,7 @@
     "**/*.js",
     "**/*.jsx",
     "src",
-    "zosite.json",
     "vite.config.ts",
-    "types",
     "**/*.d.ts"
   ],
   "exclude": ["dist", "node_modules"]
