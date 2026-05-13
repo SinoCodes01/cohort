@@ -72,7 +72,7 @@ export default function Hero() {
                 </div>
                 <div style={{ padding: "0 1rem 1.5rem" }}>
                   <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "1rem" }}>
-                    <span style={{ fontWeight: 800, fontSize: "1.125rem", color: white }}>cohort</span>
+                    <img src="/images/cohort-logo.png" alt="cohort" style={{ height: "24px", width: "auto" }} />
                     <div style={{ width: "2rem", height: "2rem", borderRadius: "50%", background: orange }} />
                   </div>
                   <div style={{ display: "flex", gap: "1rem", marginBottom: "1rem", fontSize: "0.75rem", color: gray500 }}>

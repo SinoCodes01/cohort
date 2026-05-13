@@ -32,8 +32,8 @@ export default function Navbar() {
     >
       <div style={{ maxWidth: "1280px", margin: "0 auto", padding: "1rem 1.5rem", display: "flex", alignItems: "center", justifyContent: "space-between" }}>
         {/* Logo */}
-        <a href="/" style={{ textDecoration: "none" }}>
-          <span style={{ fontSize: "1.5rem", fontWeight: 800, letterSpacing: "-0.5px", color: orange }}>cohort</span>
+        <a href="/" style={{ textDecoration: "none", display: "flex", alignItems: "center" }}>
+          <img src="/images/cohort-logo.png" alt="cohort" style={{ height: "40px", width: "auto" }} />
         </a>
 
         {/* Desktop Nav */}

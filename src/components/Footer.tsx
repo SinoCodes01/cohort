@@ -11,7 +11,7 @@ export default function Footer() {
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(150px, 1fr))", gap: "2rem", marginBottom: "2.5rem" }}>
           {/* Brand */}
           <div>
-            <span style={{ fontSize: "1.5rem", fontWeight: 800, color: "#FF6B35" }}>cohort</span>
+            <img src="/images/cohort-logo.png" alt="cohort" style={{ height: "48px", width: "auto" }} />
             <p style={{ color: "#6B7280", fontSize: "0.875rem", marginTop: "0.75rem", lineHeight: 1.6 }}>
               The campus community app connecting students across 500+ universities.
             </p>
