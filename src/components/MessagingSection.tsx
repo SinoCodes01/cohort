@@ -6,15 +6,15 @@ export default function MessagingSection() {
           {/* Left: Text */}
           <div>
             <h2 style={{ fontSize: "clamp(2rem, 5vw, 3rem)", fontWeight: 800, color: "#111827", marginBottom: "1rem", lineHeight: 1.1 }}>
-              Connect <span style={{ color: "#FF6B35" }}>your way</span>
+              Safe, Scalable <span style={{ color: "#FF6B35" }}>Peer Engagement.</span>
             </h2>
             <p style={{ fontSize: "1.25rem", color: "#6B7280", marginBottom: "1.5rem" }}>
-              Public threads for community discussions. Private messages for personal conversations. Both, seamlessly.
+              Bridge the gap from offer to orientation. Empower student ambassadors to build early belonging and answer FAQs at scale.
             </p>
             {[
-              { title: "Community Threads", desc: "Ask questions, share resources, and build knowledge together in public community forums.", color: "#FF6B35" },
-              { title: "Private Messaging", desc: "Connect with classmates, find study partners, and plan projects in secure 1-on-1 chats.", color: "#FF8C5A" },
-              { title: "Group Chats", desc: "Organize study groups, event planning, or club committees with group messaging.", color: "#FF6B35" },
+              { title: "Reduce 'Summer Melt'", desc: "Keep offer-holders engaged and committed during the high-risk period between acceptance and arrival.", color: "#FF6B35" },
+              { title: "Official Ambassadors", desc: "Equip your student leaders with tools to welcome, guide, and support new arrivals in a safe, moderated space.", color: "#FF8C5A" },
+              { title: "Verified Environments", desc: "A secure campus-only network where students can connect without the noise of public social media.", color: "#FF6B35" },
             ].map((item) => (
               <div key={item.title} style={{ display: "flex", alignItems: "flex-start", gap: "1rem", marginBottom: "1rem" }}>
                 <div style={{ width: "12px", height: "12px", borderRadius: "50%", background: item.color, marginTop: "6px", flexShrink: 0 }} />
@@ -30,37 +30,37 @@ export default function MessagingSection() {
           <div style={{ display: "flex", justifyContent: "center" }}>
             <div style={{ width: "22rem", borderRadius: "1.5rem", padding: "1rem", boxShadow: "0 10px 40px rgba(0,0,0,0.08)", border: "1px solid #E5E7EB", background: "#F9FAFB" }}>
               <div style={{ display: "flex", alignItems: "center", gap: "0.75rem", paddingBottom: "0.75rem", borderBottom: "1px solid #E5E7EB", marginBottom: "0.75rem" }}>
-                <div style={{ width: "2.5rem", height: "2.5rem", borderRadius: "50%", background: "#FF6B35" }} />
+                <div style={{ width: "2.5rem", height: "2.5rem", borderRadius: "50%", background: "#FF6B35", display: "flex", alignItems: "center", justifyContent: "center", color: "white", fontWeight: 700, fontSize: "0.875rem" }}>A</div>
                 <div>
-                  <div style={{ fontWeight: 700, color: "#111827", fontSize: "0.875rem" }}>Alex Chen</div>
-                  <div style={{ color: "#6B7280", fontSize: "0.75rem" }}>Online</div>
+                  <div style={{ fontWeight: 700, color: "#111827", fontSize: "0.875rem" }}>Alex (Student Ambassador)</div>
+                  <div style={{ color: "#6B7280", fontSize: "0.75rem" }}>Official · Online</div>
                 </div>
               </div>
               <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
                 <div style={{ display: "flex", justifyContent: "flex-end" }}>
                   <div style={{ maxWidth: "16rem", padding: "0.5rem 1rem", borderRadius: "1rem 1rem 4px 1rem", fontSize: "0.875rem", color: "white", background: "#FF6B35" }}>
-                    Hey! Are you going to the CS meetup tomorrow?
+                    Welcome to the Class of 2028! Any questions about housing?
                   </div>
                 </div>
                 <div style={{ display: "flex", justifyContent: "flex-start" }}>
                   <div style={{ maxWidth: "16rem", padding: "0.5rem 1rem", borderRadius: "1rem 1rem 1rem 4px", fontSize: "0.875rem", background: "white", border: "1px solid #E5E7EB", color: "#374151" }}>
-                    Yes! Should I bring anything?
+                    Yes! Which dorm is closest to the library? 🏠
                   </div>
                 </div>
                 <div style={{ display: "flex", justifyContent: "flex-end" }}>
                   <div style={{ maxWidth: "16rem", padding: "0.5rem 1rem", borderRadius: "1rem 1rem 4px 1rem", fontSize: "0.875rem", color: "white", background: "#FF6B35" }}>
-                    Just your laptop. We're doing a mini hackathon 🏆
+                    East Hall is definitely your best bet. I'll send you the map!
                   </div>
                 </div>
               </div>
               <div style={{ marginTop: "0.75rem", paddingTop: "0.75rem", borderTop: "1px solid #E5E7EB" }}>
-                <div style={{ fontSize: "0.75rem", color: "#6B7280", fontWeight: 500, marginBottom: "0.5rem" }}>Public Thread — CS Majors</div>
+                <div style={{ fontSize: "0.75rem", color: "#6B7280", fontWeight: 500, marginBottom: "0.5rem" }}>Community Thread — New Students FAQ</div>
                 <div style={{ padding: "0.75rem", borderRadius: "0.75rem", background: "#F3F4F6" }}>
-                  <div style={{ fontSize: "0.75rem", color: "#6B7280", marginBottom: "0.25rem" }}>@prof_kim · 2h ago</div>
-                  <div style={{ fontSize: "0.875rem", color: "#111827", marginBottom: "0.5rem" }}>Does anyone have notes for the algorithms midterm? 🙏</div>
+                  <div style={{ fontSize: "0.75rem", color: "#6B7280", marginBottom: "0.25rem" }}>@ambassador_lisa · 2h ago</div>
+                  <div style={{ fontSize: "0.875rem", color: "#111827", marginBottom: "0.5rem" }}>Where do I pick up my student ID on move-in day? 💳</div>
                   <div style={{ display: "flex", gap: "0.75rem", fontSize: "0.75rem", color: "#6B7280" }}>
-                    <span>💬 12 replies</span>
-                    <span>❤️ 34</span>
+                    <span>💬 45 replies</span>
+                    <span>❤️ 128</span>
                   </div>
                 </div>
               </div>

@@ -1,10 +1,10 @@
 const communities = [
-  { name: "Computer Science", members: "2,431", tags: ["Tech", "Academic"], color: "#FF6B35", emoji: "💻" },
+  { name: "Class of 2028 (Official)", members: "3,241", tags: ["Official", "Orientation"], color: "#FF6B35", emoji: "🎓" },
   { name: "Photography Club", members: "1,108", tags: ["Creative", "Hobby"], color: "#FF8C5A", emoji: "📷" },
-  { name: "Soccer League", members: "892", tags: ["Sports", "Rec"], color: "#FFB099", emoji: "⚽" },
-  { name: "Debate Society", members: "654", tags: ["Academic", "Social"], color: "#FF6B35", emoji: "🎤" },
-  { name: "Music Producers", members: "1,023", tags: ["Creative", "Hobby"], color: "#FF8C5A", emoji: "🎵" },
-  { name: "Entrepreneurship", members: "789", tags: ["Career", "Business"], color: "#FFB099", emoji: "🚀" },
+  { name: "Int'l Students Hub", members: "892", tags: ["Support", "Global"], color: "#FFB099", emoji: "🌍" },
+  { name: "CS & Engineering", members: "2,431", tags: ["Academic", "Tech"], color: "#FF6B35", emoji: "💻" },
+  { name: "Campus Housing", members: "1,023", tags: ["Living", "Official"], color: "#FF8C5A", emoji: "🏠" },
+  { name: "Soccer League", members: "789", tags: ["Sports", "Rec"], color: "#FFB099", emoji: "⚽" },
 ];
 
 export default function CommunitiesPreview() {
@@ -14,16 +14,16 @@ export default function CommunitiesPreview() {
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "3rem", alignItems: "center" }}>
           <div>
             <h2 style={{ fontSize: "clamp(2rem, 5vw, 3rem)", fontWeight: 800, color: "#111827", marginBottom: "1rem", lineHeight: 1.1 }}>
-              Find your <span style={{ color: "#FF6B35" }}>people</span>
+              Official channels. <span style={{ color: "#FF6B35" }}>Organic growth.</span>
             </h2>
             <p style={{ fontSize: "1.25rem", color: "#6B7280", marginBottom: "1.5rem" }}>
-              From major-specific communities to niche hobby groups — every campus has a home for you.
+              From official department hubs to niche hobby groups — Cohort brings your entire campus ecosystem into one place.
             </p>
             <p style={{ color: "#4B5563", marginBottom: "2rem", lineHeight: 1.7 }}>
-              Whether you're into competitive coding, intramural sports, or making music with friends, there's already a community waiting. Join in seconds, participate at your own pace, and never feel lost on campus again.
+              Universities can launch official, moderated communities to guide students from day one. Meanwhile, students have the freedom to spark their own organic clubs, interest groups, and study circles, fostering a true sense of belonging.
             </p>
             <a href="#download" style={{ display: "inline-flex", alignItems: "center", gap: "0.5rem", fontWeight: 600, color: "#FF6B35", textDecoration: "none" }}>
-              Explore communities
+              Explore the ecosystem
               <svg style={{ width: "16px", height: "16px" }} fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>

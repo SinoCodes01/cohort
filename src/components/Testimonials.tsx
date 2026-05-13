@@ -1,7 +1,7 @@
 const testimonials = [
-  { name: "Maya Johnson", school: "UC Berkeley", year: "Junior", quote: "I found my entire social circle on Cohort. I went from knowing no one to having a crew for every study session and weekend hangout.", avatar: "MJ", color: "#FF6B35" },
-  { name: "David Park", school: "NYU", year: "Sophomore", quote: "The career fair events feature helped me land an internship. I had no idea half the companies were coming to campus until I saw it on Cohort.", avatar: "DP", color: "#FF8C5A" },
-  { name: "Sarah Williams", school: "University of Michigan", year: "Senior", quote: "The photography club community is how I met my best friends. We go on shoots every weekend. Cohort literally changed my college experience.", avatar: "SW", color: "#FFB099" },
+  { name: "Dr. Sarah Jenkins", school: "Dean of Student Affairs", year: "Stanford University", quote: "Cohort has completely transformed our student orientation. We've seen a 20% increase in early engagement and a significant reduction in arrival anxiety.", avatar: "SJ", color: "#FF6B35" },
+  { name: "Maya Johnson", school: "UC Berkeley", year: "Junior", quote: "I found my entire social circle on Cohort. I went from knowing no one to having a crew for every study session and weekend hangout before classes even started.", avatar: "MJ", color: "#FF8C5A" },
+  { name: "David Park", school: "NYU", year: "Sophomore", quote: "The career fair events feature helped me land an internship. I had no idea half the companies were coming to campus until I saw the official post on Cohort.", avatar: "DP", color: "#FFB099" },
 ];
 
 export default function Testimonials() {
@@ -10,10 +10,10 @@ export default function Testimonials() {
       <div style={{ maxWidth: "1280px", margin: "0 auto" }}>
         <div style={{ textAlign: "center", marginBottom: "4rem" }}>
           <h2 style={{ fontSize: "clamp(2rem, 5vw, 3rem)", fontWeight: 800, color: "#111827", marginBottom: "1rem" }}>
-            Students are <span style={{ color: "#FF6B35" }}>thriving</span>
+            Success stories from <span style={{ color: "#FF6B35" }}>across campus</span>
           </h2>
           <p style={{ fontSize: "1.25rem", color: "#6B7280", maxWidth: "42rem", margin: "0 auto" }}>
-            Real stories from real students who found their community on Cohort.
+            Whether you're managing a department or just starting your freshman year, Cohort delivers results.
           </p>
         </div>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: "1.5rem" }}>

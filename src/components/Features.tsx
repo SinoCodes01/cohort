@@ -1,10 +1,10 @@
-import { Users, Calendar, MessageCircle, Shield } from "lucide-react";
+import { Users, Calendar, MessageCircle, BarChart3 } from "lucide-react";
 
 const features = [
-  { icon: <Users className="w-7 h-7" />, title: "Campus Communities", desc: "Join communities for your major, hobbies, and interests. Find your tribe on day one.", color: "#FF6B35" },
-  { icon: <Calendar className="w-7 h-7" />, title: "Discover Events", desc: "Never miss a campus event. From study groups to sports games — find what's happening nearby.", color: "#FF8C5A" },
-  { icon: <MessageCircle className="w-7 h-7" />, title: "Public Threads", desc: "Ask questions, share tips, and help fellow students in community threads. Knowledge at scale.", color: "#FF6B35" },
-  { icon: <Shield className="w-7 h-7" />, title: "Private Messaging", desc: "Connect privately with classmates, find study partners, or plan group projects securely.", color: "#FF8C5A" },
+  { icon: <Users className="w-7 h-7" />, title: "Branded Communities", desc: "Students find their tribe on day one, while universities build official, moderated social networks that drive engagement.", color: "#FF6B35" },
+  { icon: <Calendar className="w-7 h-7" />, title: "Campus-Wide Events", desc: "Centralize your entire student life calendar. Students never miss out, and departments see higher turnout for key orientations.", color: "#FF8C5A" },
+  { icon: <MessageCircle className="w-7 h-7" />, title: "Peer-to-Peer Support", desc: "Scalable support that reduces administrative burden. Students help each other, moderated by student ambassadors.", color: "#FF6B35" },
+  { icon: <BarChart3 className="w-7 h-7" />, title: "Actionable Insights", desc: "Identify engagement trends and student sentiment in real-time. Data-driven tools to proactively support student success.", color: "#FF8C5A" },
 ];
 
 export default function Features() {
@@ -13,10 +13,10 @@ export default function Features() {
       <div style={{ maxWidth: "1280px", margin: "0 auto" }}>
         <div style={{ textAlign: "center", marginBottom: "4rem" }}>
           <h2 style={{ fontSize: "clamp(2rem, 5vw, 3rem)", fontWeight: 800, color: "#111827", marginBottom: "1rem" }}>
-            Everything you need to <span style={{ color: "#FF6B35" }}>belong</span>
+            Built for students, <span style={{ color: "#FF6B35" }}>optimized for success</span>
           </h2>
           <p style={{ fontSize: "1.25rem", color: "#6B7280", maxWidth: "42rem", margin: "0 auto" }}>
-            Cohort brings your entire campus digital life into one place — no more juggling between apps.
+            Cohort bridges the gap between digital social life and institutional goals, creating a thriving campus ecosystem.
           </p>
         </div>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))", gap: "1.5rem" }}>
